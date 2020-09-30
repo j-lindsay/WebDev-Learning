@@ -3,9 +3,40 @@
 <head>
     <meta charset="utf-8">
     <title> Test webpage</title>
+    <style>
+        ul {
+            font-size: large;
+            font-family: 'Courier New', Courier, monospace;
+            color: blue;
+        }
+
+        .highlight.center {
+            background-color: aqua;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-    <h1> Hello world (testing something)</h1>
+    <h1 class="highlight center"> Main/Level 1 Heading</h1>
+    <h2 class="highlight center"> Level 2 Subheading</h2> 
+    <div class="highlight"> Block level tag
+        <h1> Main/Level 1 Heading Again</h1>
+        <span> *** Span inside Div ***</span>
+        <span>``` Another Span, and these should be on the same line ```</span>
+    </div>
+
+    Shopping List
+    <ol>
+        <li> Replacement razor foil</li>
+        <li> Masks 
+            <ul>
+                <li> Linen</li>
+                <li> Disposable</li>
+                <li> N95</li>
+            </ul>
+        </li>
+    </ol>
+    
 </body>
 </html>
