@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(209, 208, 245);
+}
+
 ol ul {
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
@@ -37,4 +45,14 @@ section h1 {
 ul li:nth-child(2):hover {
     font-size: 24px;
     cursor: pointer;
+}
+
+#box {
+    margin-top: 10px;
+    background-color: cadetblue;
+    border: 3px dashed black;
+}
+
+#content {
+    background-color: coral;
 }
