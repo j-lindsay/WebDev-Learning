@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
 }
@@ -55,4 +56,45 @@ ul li:nth-child(2):hover {
 
 #content {
     background-color: coral;
+=======
+ol ul {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+
+.highlight.center {
+    background-color: aqua;
+    text-align: center;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    border: 1px solid;
+    color: rgb(12, 11, 100);
+    background-color: gray;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+a:hover, a:active {
+    background-color: greenyellow;
+    color: purple;
+}
+
+section h1 {
+    color:rgb(12, 11, 100);
+    text-decoration: underline;
+}
+
+.GeneralYoutubeLinks {
+    font-weight: 600;
+}
+
+ul li:nth-child(2):hover {
+    font-size: 24px;
+    cursor: pointer;
+>>>>>>> 6512d35c817e642a9943b1b8640240a0f144e2af
 }
